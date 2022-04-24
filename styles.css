@@ -515,9 +515,87 @@ footer .logoRedes img{
     
     }
     /*productos*/
-    
-    
+     /*productos*/
+
+     .padreGaleria1-productos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .padreGaleria2-productos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .padreGaleria3-productos{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .padreGaleria3-productos img{
+        margin: 0px;
+    }
+    .paletasHeladas{
+        margin: 0px;
+    }
+    /*sobre nosotros*/
+    .div-img-texto-local{
+        flex-direction: column;
+    }
+    .imgLocal{
+        width: 100%;
+        height: auto;
+    }
+    .textoLocal{
+        width: auto;
+        height: auto;
+        font-size: 21px;
+    }
+    .div-imag-texto-cuarto{
+        flex-direction: column;
+    }
+    .imgCuarto{
+        width: 100%;
+        height: auto;
+    }
+    .textoCuarto{
+        width: auto;
+        height: auto;
+        font-size: 21px;
+    }
+     /*contactos*/
+
+     .mainContacto{
+        width: auto;
+        height: auto;
+        margin: 30px;
+    }
+    form{
+        
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    input{
+        width: 80%;
+    }
+    textarea{
+        width: 80%;
+
+    }
+
+}   
 @media only screen and (max-width: 768px){
+    /*index*/
+    .main-div-karinat img{
+        width: 100%;
+        height: auto;
+    }
+    .main-div-nutella img{
+        width: 100%;
+        height: auto;
+    }
+
+
+    /*productos*/
 
     .padreGaleria1-productos{
         flex-direction: column;
@@ -539,11 +617,94 @@ footer .logoRedes img{
         margin: 0px;
     }
     
+    /*gustos*/
+
+    .main-gustos{
+        flex-direction: column;
+        
+    }
+    .div-chocolateDulces{
+        width: auto;
+
+    }
+    .div-chocolateDulces h2{
+        font-size: 40px;
+    }
+    .div-chocolateDulces ul{
+        font-size: 30px;
+    }
+
+     
+    .div-tradicionalesFrutales{
+        width: auto;
+
+    }
+    .div-tradicionalesFrutales h2{
+        font-size: 40px;
+    }
+    .div-tradicionalesFrutales ul{
+        font-size: 30px;
+    }
+    /*sobre nosotros*/
+    .div-img-texto-local{
+        flex-direction: column;
+    }
+    .imgLocal{
+        width: 100%;
+        height: auto;
+    }
+    .textoLocal{
+        width: auto;
+        height: auto;
+        font-size: 21px;
+    }
+    .div-imag-texto-cuarto{
+        flex-direction: column;
+    }
+    .imgCuarto{
+        width: 100%;
+        height: auto;
+    }
+    .textoCuarto{
+        width: auto;
+        height: auto;
+        font-size: 21px;
+    }
+    /*contactos*/
+
+    .mainContacto{
+        width: auto;
+        height: auto;
+        margin: 30px;
+    }
+    form{
+        
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    input{
+        width: 80%;
+    }
+    textarea{
+        width: 80%;
+
+    }
+
 
 }
 
 
 @media only screen and (max-width: 480px){
+    /*index*/
+    .main-div-karinat img{
+        width: 95%;
+        height: auto;
+    }
+    .main-div-nutella img{
+        width: 95%;
+        height: auto;
+    }
 
     .logo{
         width: 130px;
@@ -602,6 +763,223 @@ footer .logoRedes img{
     .textoRedes{
         margin: 6px;
         
+
+    }
+    /*productos*/
+    .padreGaleria1-productos{
+        justify-content: center;
+    }
+    .padreGaleria1-productos img{
+        width:  90%;
+        height: 80%;
+    }
+    .padreGaleria2-productos img{
+        width: 90%;
+        height: 90%;
+    }
+    .padreGaleria3-productos img{
+        width: 90%;
+        height: 90%;
+    }
+    .paletasHeladas{
+        font-size: 26px;
+    }
+    .postreHeladas{
+        font-size: 26px;
+    }
+    .tortasHeladas{
+        font-size: 26px;
+    }
+    /*gustos*/
+
+    .main-gustos{
+        flex-direction: column;
+        
+    }
+    .div-chocolateDulces{
+        width: auto;
+
+    }
+    .div-chocolateDulces h2{
+        font-size: 30px;
+    }
+    .div-chocolateDulces ul{
+        font-size: 20px;
+    }
+
+     
+    .div-tradicionalesFrutales{
+        width: auto;
+
+    }
+    .div-tradicionalesFrutales h2{
+        font-size: 30px;
+    }
+    .div-tradicionalesFrutales ul{
+        font-size: 20px;
+    }
+    /*sobre nosotros*/
+    .div-img-texto-local{
+        flex-direction: column;
+    }
+    .imgLocal{
+        width: 100%;
+        height: auto;
+    }
+    .textoLocal{
+        width: auto;
+        height: auto;
+        font-size: 19px;
+    }
+    .div-imag-texto-cuarto{
+        flex-direction: column;
+    }
+    .imgCuarto{
+        width: 100%;
+        height: auto;
+    }
+    .textoCuarto{
+        width: auto;
+        height: auto;
+        font-size: 19px;
+    }
+    /*contactos*/
+
+    .mainContacto{
+        width: auto;
+        height: auto;
+        margin: 30px;
+    }
+    form{
+        
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    input{
+        width: auto;
+    }
+    textarea{
+        width: auto;
+
+    }
+
+
+
+
+}
+@media only screen and (max-width: 360px){
+    /*index*/
+    .galeriaIndex{
+        width: 70%;
+        height: 70%;
+    }
+    .main-div-karinat img{
+        width: 95%;
+        height: auto;
+    }
+    .main-div-nutella img{
+        width: 95%;
+        height: auto;
+    }
+
+    /*productos*/
+
+    .paletasHeladas{
+        font-size: 26px;
+    }
+    .postreHeladas{
+        font-size: 26px;
+    }
+    .tortasHeladas{
+        font-size: 26px;
+    }
+  
+    .padreGaleria1-productos img{
+        
+        width: 70%;
+        height: 70%;
+    }
+    .padreGaleria2-productos img{
+        width: 70%;
+        height: 70%;
+    }
+    .padreGaleria3-productos img{
+        width: 70%;
+        height: 70%;
+    }
+    /*gustos*/
+
+    .main-gustos{
+        flex-direction: column;
+
+    }
+    .div-chocolateDulces{
+        width: auto;
+
+    }
+    .div-chocolateDulces h2{
+        font-size: 30px;
+    }
+    .div-chocolateDulces ul{
+        font-size: 20px;
+    }
+
+     
+    .div-tradicionalesFrutales{
+        width: auto;
+
+    }
+    .div-tradicionalesFrutales h2{
+        font-size: 30px;
+    }
+    .div-tradicionalesFrutales ul{
+        font-size: 20px;
+    }
+    /*sobre nosotros*/
+
+    .div-img-texto-local{
+        flex-direction: column;
+    }
+    .imgLocal{
+        width: 100%;
+        height: auto;
+    }
+    .textoLocal{
+        width: auto;
+        height: auto;
+        font-size: 16px;
+    }
+    .div-imag-texto-cuarto{
+        flex-direction: column;
+    }
+    .imgCuarto{
+        width: 100%;
+        height: auto;
+    }
+    .textoCuarto{
+        width: auto;
+        height: auto;
+        font-size: 16px;
+    }
+    /*contactos*/
+
+    .mainContacto{
+        width: auto;
+        height: auto;
+        margin: 30px;
+    }
+    form{
+        
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    input{
+        width: auto;
+    }
+    textarea{
+        width: auto;
 
     }
 }
