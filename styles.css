@@ -1,17 +1,14 @@
-
-
 body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-column-gap: 0px;
-    grid-row-gap: 18px;
+    grid-row-gap: 0px;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
     
-
 }
 
 /* HEADER*/ 
@@ -20,9 +17,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient( 115.5deg, rgba(247,154,42,1) 19.2%, rgba(33,183,119,1) 19.5%, rgba(214,4,105,1) 20.5% );
-    
-    
+    background-image: linear-gradient( 115.5deg, rgba(247,154,42,1) 19.2%, rgba(33,183,119,1) 19.5%, rgba(214,4,105,1) 20.5% );   
                
 }
 
@@ -42,8 +37,6 @@ header {
     padding: 0.5%;
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14); 
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14);
-
-
 }
 
 header ul {
@@ -54,20 +47,28 @@ header li{
     text-align: center;
     display: inline-block;
     font-size: 25px;
-    font-weight: bold;
-    
-    
+    font-weight: bold; 
 }
 header a{
     order: 1;
     color: rgb(4, 4, 4);
     padding: 5px;
     margin: 0
-    
-
 }
 
 /*PAGINA INDEX*/
+.CardMain h5{
+    display: inline-block;
+    flex-wrap: wrap;
+    font-size: 60px;
+    background-color: black;
+    align-items: center;
+    margin-top: 15%;
+}
+.CardMain img{
+    max-height: 800px;
+}
+
 main { 
     grid-area: 2 / 1 / 5 / 6; 
     flex-direction: column;   
@@ -77,8 +78,6 @@ main {
     background-image: url("./imagenes/fotoprincipal.jpg");  
     background-repeat: no-repeat;
     background-size: cover;
-    
-     
     
 }    
 .galeriaIndex {
@@ -103,14 +102,12 @@ main {
 .tituloKarinat{
     font-family: 'Karla', sans-serif;
     font-size: 50px;
-    background-color:  rgba(255, 255, 255, 0.6);
+    background-color:  rgba(255, 255, 255, 0.9);
     color: black;
     text-align: center;
     margin: 21px;
     padding: 6px;
-    
-    
-    
+      
 }
 .tituloKarinat2{
     font-size: 40px;
@@ -138,13 +135,13 @@ main {
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14); 
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14);
     font-size: 24px;
-    background: rgba(255, 255, 255, 0.6)
+    background: rgba(255, 255, 255, 0.9)
     
 }
 .divNuevoSabor{
     display: flex;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
     margin: 21px;
     padding: 6px;
 }
@@ -160,8 +157,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 9px;
-    
+    margin: 9px;   
 
 }
 .main-div-nutella img {
@@ -206,8 +202,7 @@ main {
     width: 550px;
     height: 376px;
     border-radius: 15px;
-    border: solid 9px aliceblue;
-    
+    border: solid 9px aliceblue;   
 
 }
 .postreHeladas{
@@ -230,8 +225,7 @@ main {
     height: 376px;
     border-radius: 15px;
     border: solid 9px aliceblue;
-
-    
+  
 }
 
 .tortasHeladas{
@@ -276,28 +270,24 @@ main {
 .div-chocolateDulces{
     margin: 27px;
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
     display: flex;
     flex-direction: column;
     width: 36%;
-    border: solid 3px rgba(214,4,105,0.6);
-    
-    
+    height: fit-content;
+    border: solid 3px rgba(214,4,105,0.6);  
     
 }
 .div-tradicionalesFrutales{
     margin: 27px;
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.9);
     display: flex;
     flex-direction: column;
     width: 36%;
+    height: fit-content;
     border: solid 3px rgba(214,4,105,0.6);
-    
-    
-    
-    
-    
+      
 }
 
 .chocolates{
@@ -335,8 +325,6 @@ main {
     font-size: 31PX;
     border: solid 3px rgba(214,4,105,0.6);
     border-radius: 16px;
-    
-
 
 }
     
@@ -363,66 +351,20 @@ main {
 
 /*sobre nosotros*/
 
-.main-Img-Texto {
-    display: flex;
+.card-body-nosotros{
+    background-color: #000000;
+    color: aliceblue;
     
+}
+.card-title-nosotrosh5{
+    font-size: 50px;
+}
+.card-text-nosotrosp{
+    font-size: 30px;
 
 }
-.div-img-texto-local {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 3%;
-    
-}
-.textoLocal{
-    border: solid 3px #495F75;
-    margin: 1%;
-    border-radius: 3%;
-    padding: 1%;
-    width: 500px;
-    height: 300px;
-    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14); 
-    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14);
-    background-color:  rgba(255, 255, 255, 0.6);
-}
-.imgLocal {
-    width: 90vh;
-    height: 60vh;
-    margin: 0.1%;
-    -webkit-box-shadow: -8px 5px 13px 5px rgba(0,0,0,0.32); 
-    box-shadow: -8px 5px 13px 5px rgba(0,0,0,0.32);
-    border-radius: 15px;
-    
-}
-.div-imag-texto-cuarto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
-    margin: 3%;
-}
-.imgCuarto {
-    width: 90vh;
-    height: 60vh;
-    margin: 0.1%;
-    -webkit-box-shadow: -8px 5px 13px 5px rgba(0,0,0,0.32); 
-    box-shadow: -8px 5px 13px 5px rgba(0,0,0,0.32);
-    border-radius: 15px;
-}
-.textoCuarto {
-    border: solid 3px #495F75;
-    margin: 1%;
-    border-radius: 3%;
-    padding: 1%;
-    width: 500px;
-    height: 300px;
-    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14); 
-    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14);
-    background-color:  rgba(255, 255, 255, 0.6);
-}
+
 /*contacto*/
-
 .mainContacto {
     width: 203vh;
     height: 100vh;
@@ -459,9 +401,7 @@ textarea{
     padding: 10px;
     margin-bottom: 20px;
     min-height: 200px;
-    
-    
-   
+         
 }
 
 /*FOOTER*/
@@ -479,12 +419,27 @@ footer {
     list-style: none; 
 }
 footer .logoRedes img{
-    width: 05vh;
-    
+    width: 05vh;  
      
 }
 
+@media only screen and (max-width: 1721px){
+    /*productos*/
+    .padreGaleria1-productos{
+        flex-wrap: wrap;
+    }
+    .padreGaleria2-productos{
+        flex-wrap: wrap;
+    }
+    .padreGaleria3-productos{
+        flex-wrap: wrap;
+    }
+    .padreGaleria3-productos img{
+        margin: 0%;
+        
+    }
 
+}
 
 @media only screen and (max-width: 1024px){
 
@@ -506,18 +461,16 @@ footer .logoRedes img{
         flex-direction: column;
     }
     .main-div-nutella{
-        flex-direction: column;
-        
+        flex-direction: column;  
     }
 
     footer {
         flex-direction: column;
-    
     }
     /*productos*/
-     /*productos*/
+     
 
-     .padreGaleria1-productos{
+    .padreGaleria1-productos{
         flex-direction: column;
         align-items: center;
     }
@@ -561,9 +514,10 @@ footer .logoRedes img{
         height: auto;
         font-size: 21px;
     }
-     /*contactos*/
 
-     .mainContacto{
+    /*contactos*/
+
+    .mainContacto{
         width: auto;
         height: auto;
         margin: 30px;
@@ -581,8 +535,36 @@ footer .logoRedes img{
         width: 80%;
 
     }
+    /*gustos*/
+    .div-chocolateDulces{
+        width: fit-content;
+        height: fit-content;
+
+    }
+    .div-chocolateDulces h2{
+        font-size: 40px;
+    }
+    .div-chocolateDulces ul{
+        font-size: 30px;
+    }
+
+     
+    .div-tradicionalesFrutales{
+        width: fit-content;
+        height: fit-content;
+
+    }
+    .div-tradicionalesFrutales h2{
+        font-size: 40px;
+    }
+    .div-tradicionalesFrutales ul{
+        font-size: 30px;
+    }
+   
 
 }   
+
+
 @media only screen and (max-width: 768px){
     /*index*/
     .main-div-karinat img{
@@ -645,6 +627,7 @@ footer .logoRedes img{
     .div-tradicionalesFrutales ul{
         font-size: 30px;
     }
+
     /*sobre nosotros*/
     .div-img-texto-local{
         flex-direction: column;
@@ -693,10 +676,36 @@ footer .logoRedes img{
 
 
 }
+@media only screen and (max-width: 653px){
+    /*index*/
+    .CardMain h5 {
+        margin-top: 10%;
+        font-size: 30px;
 
+    }
+    /*productos*/
+    .padreGaleria1-productos img{
+        width: 80%;
+        height: 50%;
+    }
+    .padreGaleria2-productos img{
+        width: 80%;
+        height: 50%;
+    }
+    .padreGaleria3-productos img{
+        width: 80%;
+        height: 50%;
+    }
+}
 
 @media only screen and (max-width: 480px){
     /*index*/
+
+    .CardMain h5 {
+        margin-top: 10%;
+        font-size: 30px;
+
+    }
     .main-div-karinat img{
         width: 95%;
         height: auto;
@@ -728,7 +737,6 @@ footer .logoRedes img{
 
     .backgroundImage {
         background-image: url("./imagenes/backgroundmobile.jpg");
-    
         background-position: center;  
         
     }
@@ -763,8 +771,8 @@ footer .logoRedes img{
     .textoRedes{
         margin: 6px;
         
-
     }
+
     /*productos*/
     .padreGaleria1-productos{
         justify-content: center;
@@ -806,8 +814,6 @@ footer .logoRedes img{
     .div-chocolateDulces ul{
         font-size: 20px;
     }
-
-     
     .div-tradicionalesFrutales{
         width: auto;
 
@@ -864,12 +870,14 @@ footer .logoRedes img{
 
     }
 
-
-
-
 }
 @media only screen and (max-width: 360px){
     /*index*/
+    .CardMain h5 {
+        margin-top: 5%;
+        font-size: 20px;
+
+    }
     .galeriaIndex{
         width: 70%;
         height: 70%;
@@ -896,17 +904,16 @@ footer .logoRedes img{
     }
   
     .padreGaleria1-productos img{
-        
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: 50%;
     }
     .padreGaleria2-productos img{
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: 50%;
     }
     .padreGaleria3-productos img{
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: 50%;
     }
     /*gustos*/
 
@@ -923,9 +930,7 @@ footer .logoRedes img{
     }
     .div-chocolateDulces ul{
         font-size: 20px;
-    }
-
-     
+    } 
     .div-tradicionalesFrutales{
         width: auto;
 
@@ -936,6 +941,7 @@ footer .logoRedes img{
     .div-tradicionalesFrutales ul{
         font-size: 20px;
     }
+
     /*sobre nosotros*/
 
     .div-img-texto-local{
