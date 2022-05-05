@@ -1,0 +1,11 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;   
+}

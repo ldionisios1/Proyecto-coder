@@ -1,0 +1,12 @@
+/*variables*/
+/*(siempre van arriba de todo)*/
+/*componentes*/
+.CardMain h5 {
+  display: inline-block;
+  flex-wrap: wrap;
+  font-size: 60px;
+  background-color: black;
+  align-items: center;
+  margin-top: 15%; }
+
+/*Medias query*/

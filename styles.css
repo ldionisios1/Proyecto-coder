@@ -438,6 +438,24 @@ footer .logoRedes img{
         margin: 0%;
         
     }
+    .mainContacto{
+        width: auto;
+        height: auto;
+        margin: 30px;
+    }
+    form{
+        
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    input{
+        width: 80%;
+    }
+    textarea{
+        width: 80%;
+
+    }
 
 }
 
