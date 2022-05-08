@@ -1,0 +1,89 @@
+.main-gustos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .div-chocolateDulces{
+        margin: 27px;
+        border-radius: 16px;
+        background: $color-Bgblancotexto;
+        display: flex;
+        flex-direction: column;
+        width: 36%;
+        height: fit-content;
+        border: solid 3px rgba(214,4,105,0.6); 
+        .main-gustos ul{
+            padding:0%
+        }
+        .titulosGustos{
+            color: aliceblue;
+            text-align: center;
+            font-size: 51px;
+            background: rgba(2, 2, 2, 0.9);
+            border: solid 3px rgba(214,4,105,0.6);
+            margin: 3px;
+            border-radius: 16px;
+        } 
+        .chocolates{
+            color: aliceblue;
+            background: rgba(0, 0, 0, 0.9);
+            border: solid 6px aliceblue;
+            font-size: 31PX;
+            border: solid 3px rgba(214,4,105,0.6);
+            border-radius: 16px; 
+            .chocolates li{
+                list-style: none;
+                padding: 9px;
+                text-align: center;
+            }
+        }
+        .dulces-de-leche{
+            color: aliceblue;
+            background: rgba(0, 0, 0, 0.9);
+            border: solid 6px aliceblue;
+            font-size: 31PX;
+            border: solid 3px rgba(214,4,105,0.6);
+            border-radius: 16px;
+            .dulces-de-leche li{
+                list-style: none;
+                padding: 9px;
+                text-align: center;
+            }
+        }   
+    }
+    .div-tradicionalesFrutales{
+        margin: 27px;
+        border-radius: 16px;
+        background: $color-Bgblancotexto;
+        display: flex;
+        flex-direction: column;
+        width: 36%;
+        height: fit-content;
+        border: solid 3px rgba(214,4,105,0.6);
+        .tradicionales{
+            color: aliceblue;
+            background: rgba(0, 0, 0, 0.9);
+            border: solid 6px aliceblue;
+            font-size: 31PX;
+            border: solid 3px rgba(214,4,105,0.6);
+            border-radius: 16px;
+            .tradicionales li{
+                list-style: none;
+                padding: 9px;
+                text-align: center;
+            }
+        }
+        .frutales{
+            color: aliceblue;
+            background: rgba(0, 0, 0, 0.9);
+            border: solid 6px aliceblue;
+            font-size: 31PX;
+            border: solid 3px rgba(214,4,105,0.6);
+            border-radius: 16px;
+            .frutales li{
+                list-style: none;
+                padding: 9px;
+                text-align: center;
+            }
+        }   
+    }
+}

@@ -1,11 +1,15 @@
 .backgroundImage{
-    @extend .backgroundImage;
+    background-image: url("../imagenes/fotoprincipal.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
 }    
               
 main{
     grid-area: 2 / 1 / 5 / 6; 
-    flex-direction: column;   
-    
+    flex-direction: column;
+
+}   
+ .mainIndex{   
     .CardMain h5{
         display: inline-block;
         flex-wrap: wrap;
@@ -26,7 +30,7 @@ main{
         .tituloKarinat{
             font-family: 'Karla', sans-serif;
             font-size: 50px;
-            background-color:  rgba(255, 255, 255, 0.9);
+            background-color:  $color-Bgblancotexto;
             color: black;
             text-align: center;
             margin: 21px;
@@ -45,12 +49,12 @@ main{
         -webkit-box-shadow: -8px 5px 13px 5px rgba(0,0,0,0.32); 
         box-shadow: -8px 5px 13px 5px rgba(0,0,0,0.32);
         border-radius: 15px;
+    }
 
-        .galeriaIndex {
-            width: 30%;
-            height: 60%;    
-        }
-
+    .galeriaIndex {
+        width: 30%;
+        height: 60%;    
+    }
         .texto-karinat {
             border: solid 3px #495F75;
             height: fit-content;
@@ -61,13 +65,13 @@ main{
             -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14); 
             box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14);
             font-size: 24px;
-            background: rgba(255, 255, 255, 0.9)   
+            background: $color-Bgblancotexto;   
         }
 
         .divNuevoSabor{
             display: flex;
             justify-content: center;
-            background: rgba(255, 255, 255, 0.9);
+            background: $color-Bgblancotexto;
             margin: 21px;
             padding: 6px;
             .nuevoSabor{
@@ -100,5 +104,5 @@ main{
                 
             } 
         }
-    }
+    
 }

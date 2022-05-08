@@ -1,3 +1,58 @@
-.backgroundImage{
-    @extend .backgroundImage;
+.paletasHeladas{
+    margin: 0px;
+    margin-top: 50px;
+    padding: 0px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 51px;
+    margin-top: 100px;
+}
+.padreGaleria1-productos {
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 550px;
+        height: 376px;
+        border-radius: 15px;
+        border: solid 9px aliceblue;   
+    
+    }
+}
+.postreHeladas{
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 51px;
+}
+.padreGaleria2-productos{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 550px;
+        height: 376px;
+        border-radius: 15px;
+        border: solid 9px aliceblue;
+      
+    }
+}
+.tortasHeladas{
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 51px;
+}
+.padreGaleria3-productos{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 550px;
+        height: 376px;
+        border-radius: 15px;
+        border: solid 9px aliceblue;
+        margin-bottom: 100px;
+    }
 }

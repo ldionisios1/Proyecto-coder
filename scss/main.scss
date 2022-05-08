@@ -1,11 +1,15 @@
 /*variables*/ /*(siempre van arriba de todo)*/
+@import "./variables/variables.scss";
 
 /*componentes*/
-@import "./components/header";
+@import "./components/header.scss";
+@import "./components/bodyGeneral.scss";
 @import "./components/bodyIndex.scss";
 @import "./components/bodyProductos.scss";
-@import "./components//bodyGustos.scss";
+@import "./components/bodyGustos.scss";
 @import "./components/bodyNosotros.scss";
-@import "./components/bodyContacto";
+@import "./components/bodyContacto.scss";
+@import "./components/footer.scss";
 
 /*Medias query*/
+@import "./mediasQuery/components/mediaQuery";

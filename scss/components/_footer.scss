@@ -7,14 +7,22 @@ footer{
 
     .logoRedes li {
         display: inline-block;
-        list-style: none; 
+        list-style: none;
+        img{
+            width: 05vh;  
+             
+        } 
+        
     }
-
-    footer .logoRedes img{
-        width: 05vh;  
-         
+    
+    .logo{
+        width: 170px;
+        height: 130px;
+        border-radius: 25%;
+        border: solid 3px;
+        -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14); 
+        box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14);
     }
-
 
 
 }

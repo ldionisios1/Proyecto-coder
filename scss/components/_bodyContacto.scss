@@ -1,0 +1,33 @@
+.mainContacto {
+    width: 203vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    form {
+        border: solid 3px #495F75;
+        background-color:  $color-Bgblancotexto;
+        border-radius: 15px;
+        box-sizing: border-box;
+        width: 50vw;
+        height: 80vh;
+        padding: 90PX;
+        padding-top: 50px;
+        .Contactate{
+            margin-top: 5px;
+            margin-bottom: 60px;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 50px;    
+        }
+        textarea{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            min-height: 200px;        
+        }
+    }
+}
