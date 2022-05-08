@@ -11,9 +11,6 @@
         width: 36%;
         height: fit-content;
         border: solid 3px rgba(214,4,105,0.6); 
-        .main-gustos ul{
-            padding:0%
-        }
         .titulosGustos{
             color: aliceblue;
             text-align: center;
@@ -30,7 +27,7 @@
             font-size: 31PX;
             border: solid 3px rgba(214,4,105,0.6);
             border-radius: 16px; 
-            .chocolates li{
+            li{
                 list-style: none;
                 padding: 9px;
                 text-align: center;
@@ -43,7 +40,7 @@
             font-size: 31PX;
             border: solid 3px rgba(214,4,105,0.6);
             border-radius: 16px;
-            .dulces-de-leche li{
+            li{
                 list-style: none;
                 padding: 9px;
                 text-align: center;
@@ -66,12 +63,23 @@
             font-size: 31PX;
             border: solid 3px rgba(214,4,105,0.6);
             border-radius: 16px;
-            .tradicionales li{
+            li{
                 list-style: none;
                 padding: 9px;
                 text-align: center;
             }
+           
         }
+        
+        .titulosGustos{
+            color: aliceblue;
+            text-align: center;
+            font-size: 51px;
+            background: rgba(2, 2, 2, 0.9);
+            border: solid 3px rgba(214,4,105,0.6);
+            margin: 3px;
+            border-radius: 16px;
+        } 
         .frutales{
             color: aliceblue;
             background: rgba(0, 0, 0, 0.9);
@@ -79,7 +87,7 @@
             font-size: 31PX;
             border: solid 3px rgba(214,4,105,0.6);
             border-radius: 16px;
-            .frutales li{
+            li{
                 list-style: none;
                 padding: 9px;
                 text-align: center;
