@@ -64,25 +64,29 @@ main {
       order: 1;
       -webkit-box-shadow: -8px 5px 13px 5px rgba(0, 0, 0, 0.32);
       box-shadow: -8px 5px 13px 5px rgba(0, 0, 0, 0.32);
-      border-radius: 15px; }
+      border-radius: 16px; }
     main .main-div-karinat .texto-karinat {
       border: solid 3px #495F75;
       height: fit-content;
       text-align: center;
       width: auto;
       padding: 1%;
-      border-radius: 3%;
       -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0, 0, 0, 0.14);
       box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0, 0, 0, 0.14);
       font-size: 24px;
-      background: rgba(255, 255, 255, 0.9); }
+      color: white;
+      background-color: black;
+      border: solid 3px rgba(214, 4, 105, 0.6);
+      border-radius: 16px; }
   main .CardMain h5 {
     display: inline-block;
     flex-wrap: wrap;
     font-size: 60px;
     background-color: black;
     align-items: center;
-    margin-top: 15%; }
+    margin-top: 15%;
+    border: solid 3px rgba(214, 4, 105, 0.6);
+    border-radius: 16px; }
     main .CardMain h5 .CardMain img {
       max-height: 800px; }
   main .titutlosKarinat {
@@ -93,11 +97,13 @@ main {
     main .titutlosKarinat .tituloKarinat {
       font-family: 'Karla', sans-serif;
       font-size: 50px;
-      background-color: rgba(255, 255, 255, 0.9);
-      color: black;
+      background-color: black;
+      color: white;
       text-align: center;
       margin: 21px;
-      padding: 6px; }
+      padding: 6px;
+      border: solid 3px rgba(214, 4, 105, 0.6);
+      border-radius: 16px; }
     main .titutlosKarinat .tituloKarinat2 {
       font-size: 40px;
       margin: 6px;
@@ -108,9 +114,12 @@ main {
   main .divNuevoSabor {
     display: flex;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.9);
+    background: black;
+    color: white;
     margin: 21px;
-    padding: 6px; }
+    padding: 6px;
+    border: solid 3px rgba(214, 4, 105, 0.6);
+    border-radius: 16px; }
     main .divNuevoSabor .nuevoSabor {
       margin: 6px;
       padding: 6px;
@@ -125,68 +134,56 @@ main {
       width: auto;
       padding: 1%;
       margin: 9px;
-      border-radius: 3%;
       font-size: 24px;
       text-align: center;
       -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0, 0, 0, 0.14);
       box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0, 0, 0, 0.14);
-      background: rgba(255, 255, 255, 0.9); }
+      color: white;
+      background-color: black;
+      border: solid 3px rgba(214, 4, 105, 0.6);
+      border-radius: 16px; }
     main .main-div-nutella .galeriaIndex {
       width: 30%;
       height: 60%; }
+    main .main-div-nutella img {
+      border-radius: 16px; }
 
-.paletasHeladas {
+.backgroundImage {
+  background-image: url("../imagenes/fotoprincipal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.col-lg-12 h3 {
   margin: 0px;
   margin-top: 50px;
   padding: 0px;
-  background-color: aliceblue;
+  background-color: black;
   text-align: center;
   font-size: 51px;
-  margin-top: 100px; }
+  color: white;
+  border: solid 3px rgba(214, 4, 105, 0.6);
+  border-radius: 16px; }
 
-.padreGaleria1-productos {
+.col-lg-12 .padreGaleria1-productos {
   display: flex;
   justify-content: space-evenly; }
-  .padreGaleria1-productos img {
-    width: 550px;
-    height: 376px;
-    border-radius: 15px;
-    border: solid 9px aliceblue; }
 
-.postreHeladas {
-  margin: 0px;
-  margin-top: 10px;
-  padding: 0px;
-  background-color: aliceblue;
-  text-align: center;
-  font-size: 51px; }
-
-.padreGaleria2-productos {
+.col-lg-12 .padreGaleria2-productos {
   display: flex;
   justify-content: space-evenly; }
-  .padreGaleria2-productos img {
-    width: 550px;
-    height: 376px;
-    border-radius: 15px;
-    border: solid 9px aliceblue; }
 
-.tortasHeladas {
-  margin: 0px;
-  margin-top: 10px;
-  padding: 0px;
-  background-color: aliceblue;
-  text-align: center;
-  font-size: 51px; }
-
-.padreGaleria3-productos {
+.col-lg-12 .padreGaleria3-productos {
   display: flex;
   justify-content: space-evenly; }
-  .padreGaleria3-productos img {
-    width: 550px;
-    height: 376px;
-    border-radius: 15px;
-    border: solid 9px aliceblue;
-    margin-bottom: 100px; }
+  .col-lg-12 .padreGaleria3-productos img {
+    margin-bottom: 50px; }
+
+.col-lg-12 img {
+  width: 500px;
+  height: 370px;
+  border-radius: 15px;
+  border: solid 6px white;
+  margin: 30px; }
 
 .main-gustos {
   display: flex;
@@ -195,14 +192,14 @@ main {
   .main-gustos .div-chocolateDulces {
     margin: 27px;
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.9);
     display: flex;
     flex-direction: column;
     width: 36%;
     height: fit-content;
-    border: solid 3px rgba(214, 4, 105, 0.6); }
+    border: solid 3px rgba(214, 4, 105, 0.6);
+    background: white; }
     .main-gustos .div-chocolateDulces .titulosGustos {
-      color: aliceblue;
+      color: white;
       text-align: center;
       font-size: 51px;
       background: rgba(2, 2, 2, 0.9);
@@ -210,7 +207,7 @@ main {
       margin: 3px;
       border-radius: 16px; }
     .main-gustos .div-chocolateDulces .chocolates {
-      color: aliceblue;
+      color: white;
       background: rgba(0, 0, 0, 0.9);
       border: solid 6px aliceblue;
       font-size: 31PX;
@@ -221,7 +218,7 @@ main {
         padding: 9px;
         text-align: center; }
     .main-gustos .div-chocolateDulces .dulces-de-leche {
-      color: aliceblue;
+      color: white;
       background: rgba(0, 0, 0, 0.9);
       border: solid 6px aliceblue;
       font-size: 31PX;
@@ -234,14 +231,14 @@ main {
   .main-gustos .div-tradicionalesFrutales {
     margin: 27px;
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.9);
+    background: white;
     display: flex;
     flex-direction: column;
     width: 36%;
     height: fit-content;
     border: solid 3px rgba(214, 4, 105, 0.6); }
     .main-gustos .div-tradicionalesFrutales .tradicionales {
-      color: aliceblue;
+      color: white;
       background: rgba(0, 0, 0, 0.9);
       border: solid 6px aliceblue;
       font-size: 31PX;
@@ -252,7 +249,7 @@ main {
         padding: 9px;
         text-align: center; }
     .main-gustos .div-tradicionalesFrutales .titulosGustos {
-      color: aliceblue;
+      color: white;
       text-align: center;
       font-size: 51px;
       background: rgba(2, 2, 2, 0.9);
@@ -260,7 +257,7 @@ main {
       margin: 3px;
       border-radius: 16px; }
     .main-gustos .div-tradicionalesFrutales .frutales {
-      color: aliceblue;
+      color: white;
       background: rgba(0, 0, 0, 0.9);
       border: solid 6px aliceblue;
       font-size: 31PX;
@@ -273,7 +270,7 @@ main {
 
 .card-body-nosotros {
   background-color: #000000;
-  color: aliceblue; }
+  color: white; }
   .card-body-nosotros .card-title-nosotrosh5 {
     font-size: 50px; }
   .card-body-nosotros .card-text-nosotrosp {
@@ -287,14 +284,15 @@ main {
   justify-content: center;
   text-align: center; }
   .mainContacto form {
-    border: solid 3px #495F75;
-    background-color: rgba(255, 255, 255, 0.9);
+    border: solid 3px rgba(214, 4, 105, 0.6);
+    background-color: black;
     border-radius: 15px;
     box-sizing: border-box;
     width: 50vw;
     height: 80vh;
     padding: 90PX;
-    padding-top: 50px; }
+    padding-top: 50px;
+    color: white; }
     .mainContacto form .Contactate {
       margin-top: 5px;
       margin-bottom: 60px; }

@@ -19,7 +19,7 @@ main{
             order: 1;
             -webkit-box-shadow: -8px 5px 13px 5px rgba(0,0,0,0.32); 
             box-shadow: -8px 5px 13px 5px rgba(0,0,0,0.32);
-            border-radius: 15px;  
+            border-radius: 16px;  
         }
         .texto-karinat {
             border: solid 3px #495F75;
@@ -27,11 +27,13 @@ main{
             text-align: center;
             width: auto;
             padding: 1%;
-            border-radius: 3%;
             -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14); 
             box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14);
             font-size: 24px;
-            background: $color-Bgblancotexto;   
+            color: $color-texto;
+            background-color: black;
+            border: solid 3px $color-border;
+            border-radius: 16px ;   
         }    
     }
     .CardMain h5{
@@ -41,6 +43,8 @@ main{
         background-color: black;
         align-items: center;
         margin-top: 15%;
+        border: solid 3px $color-border;
+        border-radius: 16px;
         .CardMain img{
             max-height: 800px;
         }
@@ -54,11 +58,13 @@ main{
         .tituloKarinat{
             font-family: 'Karla', sans-serif;
             font-size: 50px;
-            background-color:  $color-Bgblancotexto;
-            color: black;
+            background-color:  black;
+            color: $color-texto;
             text-align: center;
             margin: 21px;
-            padding: 6px;      
+            padding: 6px;
+            border: solid 3px $color-border;
+            border-radius: 16px ;      
         }
         .tituloKarinat2{
             font-size: 40px;
@@ -67,9 +73,6 @@ main{
         
         }   
     }
-   
-   
-
     .galeriaIndex {
         width: 30%;
         height: 60%;    
@@ -79,13 +82,17 @@ main{
     .divNuevoSabor{
         display: flex;
         justify-content: center;
-        background: $color-Bgblancotexto;
+        background: black;
+        color: $color-texto;
         margin: 21px;
         padding: 6px;
+        border: solid 3px $color-border;
+        border-radius: 16px ;
     .nuevoSabor{
             margin: 6px;
             padding: 6px;
             font-size: 60px;
+            
                 
         }
     }
@@ -99,18 +106,23 @@ main{
             width: auto;
             padding: 1%;
             margin: 9px;
-            border-radius: 3%;
             font-size: 24px;
             text-align: center;
             -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14); 
             box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px -3px 24px 7px rgba(0,0,0,0.14);
-            background: $color-Bgblancotexto;   
+            color: $color-texto;
+            background-color: black;
+            border: solid 3px $color-border; 
+            border-radius: 16px;
             }  
             .galeriaIndex {
                 width: 30%;
                 height: 60%; 
                 
             } 
+            img{
+                border-radius: 16px;
+            }
         }
 
 }   

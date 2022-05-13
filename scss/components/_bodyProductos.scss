@@ -1,58 +1,46 @@
-.paletasHeladas{
-    margin: 0px;
-    margin-top: 50px;
-    padding: 0px;
-    background-color: aliceblue;
-    text-align: center;
-    font-size: 51px;
-    margin-top: 100px;
-}
-.padreGaleria1-productos {
-    display: flex;
-    justify-content: space-evenly;
-    img{
-        width: 550px;
-        height: 376px;
-        border-radius: 15px;
-        border: solid 9px aliceblue;   
+.backgroundImage{
+    background-image: url("../imagenes/fotoprincipal.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+.col-lg-12{
     
+
+    h3{
+        margin: 0px;
+        margin-top: 50px;
+        padding: 0px;
+        background-color: black;
+        text-align: center;
+        font-size: 51px;
+        color: $color-texto;
+        border: solid 3px $color-border; 
+        border-radius: 16px;
     }
-}
-.postreHeladas{
-    margin: 0px;
-    margin-top: 10px;
-    padding: 0px;
-    background-color: aliceblue;
-    text-align: center;
-    font-size: 51px;
-}
-.padreGaleria2-productos{
-    display: flex;
-    justify-content: space-evenly;
+    
+    .padreGaleria1-productos {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .padreGaleria2-productos{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .padreGaleria3-productos{
+        display: flex;
+        justify-content: space-evenly;
+        img{
+        margin-bottom: 50px;
+        }
+    }
     img{
-        width: 550px;
-        height: 376px;
+        width: 500px;
+        height: 370px;
         border-radius: 15px;
-        border: solid 9px aliceblue;
+        border: solid 6px white;
+        margin: 30px;
       
-    }
-}
-.tortasHeladas{
-    margin: 0px;
-    margin-top: 10px;
-    padding: 0px;
-    background-color: aliceblue;
-    text-align: center;
-    font-size: 51px;
-}
-.padreGaleria3-productos{
-    display: flex;
-    justify-content: space-evenly;
-    img{
-        width: 550px;
-        height: 376px;
-        border-radius: 15px;
-        border: solid 9px aliceblue;
-        margin-bottom: 100px;
     }
 }

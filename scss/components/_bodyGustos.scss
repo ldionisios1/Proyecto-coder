@@ -5,27 +5,27 @@
     .div-chocolateDulces{
         margin: 27px;
         border-radius: 16px;
-        background: $color-Bgblancotexto;
         display: flex;
         flex-direction: column;
         width: 36%;
         height: fit-content;
-        border: solid 3px rgba(214,4,105,0.6); 
+        border: solid 3px $color-border; 
+        background: white;
         .titulosGustos{
-            color: aliceblue;
+            color: $color-texto;
             text-align: center;
             font-size: 51px;
             background: rgba(2, 2, 2, 0.9);
-            border: solid 3px rgba(214,4,105,0.6);
+            border: solid 3px $color-border;
             margin: 3px;
             border-radius: 16px;
         } 
         .chocolates{
-            color: aliceblue;
+            color: $color-texto;
             background: rgba(0, 0, 0, 0.9);
             border: solid 6px aliceblue;
             font-size: 31PX;
-            border: solid 3px rgba(214,4,105,0.6);
+            border: solid 3px $color-border;
             border-radius: 16px; 
             li{
                 list-style: none;
@@ -34,11 +34,11 @@
             }
         }
         .dulces-de-leche{
-            color: aliceblue;
+            color: $color-texto;
             background: rgba(0, 0, 0, 0.9);
             border: solid 6px aliceblue;
             font-size: 31PX;
-            border: solid 3px rgba(214,4,105,0.6);
+            border: solid 3px $color-border;
             border-radius: 16px;
             li{
                 list-style: none;
@@ -50,18 +50,18 @@
     .div-tradicionalesFrutales{
         margin: 27px;
         border-radius: 16px;
-        background: $color-Bgblancotexto;
+        background: white;
         display: flex;
         flex-direction: column;
         width: 36%;
         height: fit-content;
-        border: solid 3px rgba(214,4,105,0.6);
+        border: solid 3px $color-border;
         .tradicionales{
-            color: aliceblue;
+            color: $color-texto;
             background: rgba(0, 0, 0, 0.9);
             border: solid 6px aliceblue;
             font-size: 31PX;
-            border: solid 3px rgba(214,4,105,0.6);
+            border: solid 3px $color-border;
             border-radius: 16px;
             li{
                 list-style: none;
@@ -72,20 +72,20 @@
         }
         
         .titulosGustos{
-            color: aliceblue;
+            color: $color-texto;
             text-align: center;
             font-size: 51px;
             background: rgba(2, 2, 2, 0.9);
-            border: solid 3px rgba(214,4,105,0.6);
+            border: solid 3px $color-border;
             margin: 3px;
             border-radius: 16px;
         } 
         .frutales{
-            color: aliceblue;
+            color: $color-texto;
             background: rgba(0, 0, 0, 0.9);
             border: solid 6px aliceblue;
             font-size: 31PX;
-            border: solid 3px rgba(214,4,105,0.6);
+            border: solid 3px $color-border;
             border-radius: 16px;
             li{
                 list-style: none;

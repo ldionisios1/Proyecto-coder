@@ -6,14 +6,15 @@
     justify-content: center;
     text-align: center;
     form {
-        border: solid 3px #495F75;
-        background-color:  $color-Bgblancotexto;
+        border: solid 3px $color-border;
+        background-color:  black;
         border-radius: 15px;
         box-sizing: border-box;
         width: 50vw;
         height: 80vh;
         padding: 90PX;
         padding-top: 50px;
+        color: $color-texto;
         .Contactate{
             margin-top: 5px;
             margin-bottom: 60px;
