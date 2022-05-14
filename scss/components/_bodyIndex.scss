@@ -123,10 +123,29 @@ main{
             img{
                 border-radius: 16px;
             }
-        }
-
+        }  
 }   
- 
+.card-group{
+    margin: 60px auto 60px;
+    border: solid 3px $color-border;
+    .card{
+        border: solid 3px $color-border;    
+        .card-body{
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            display: inline-block;
+            padding: 2px;
+        }
+    }
+    img{
+        height: 70%;
+    }
+    
+
+
+}
    
     
 

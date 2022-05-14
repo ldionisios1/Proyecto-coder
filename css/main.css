@@ -148,6 +148,21 @@ main {
     main .main-div-nutella img {
       border-radius: 16px; }
 
+.card-group {
+  margin: 60px auto 60px;
+  border: solid 3px rgba(214, 4, 105, 0.6); }
+  .card-group .card {
+    border: solid 3px rgba(214, 4, 105, 0.6); }
+    .card-group .card .card-body {
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      display: inline-block;
+      padding: 2px; }
+  .card-group img {
+    height: 70%; }
+
 .backgroundImage {
   background-image: url("../imagenes/fotoprincipal.jpg");
   background-repeat: no-repeat;
